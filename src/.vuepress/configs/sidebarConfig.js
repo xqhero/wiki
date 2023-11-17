@@ -6,8 +6,8 @@ module.exports = {
       sidebarDepth: 1, // 可选的, 默认值是 1
       children: [
         { title: "前言", path: "/projects/vuepress/" },
-        encodeURI("/projects/vuepress/01.vuepress简介"),
-        encodeURI("/projects/vuepress/02.vuepress搭建"),
+        "/projects/vuepress/" + encodeURI("01.vuepress简介"),
+        "/projects/vuepress/" + encodeURI("02.vuepress搭建"),
       ],
     },
     {
@@ -15,8 +15,6 @@ module.exports = {
       collapsable: true, // 可选的, 默认值是 true,
       sidebarDepth: 1, // 可选的, 默认值是 1
       children: [
-        encodeURI("/projects/vuepress/01.vuepress简介"),
-        encodeURI("/projects/vuepress/02.vuepress搭建"),
       ],
     },
     {
@@ -24,8 +22,6 @@ module.exports = {
       collapsable: true, // 可选的, 默认值是 true,
       sidebarDepth: 1, // 可选的, 默认值是 1
       children: [
-        encodeURI("/projects/vuepress/01.vuepress简介"),
-        encodeURI("/projects/vuepress/02.vuepress搭建"),
       ],
     },
     {
@@ -33,8 +29,6 @@ module.exports = {
       collapsable: true, // 可选的, 默认值是 true,
       sidebarDepth: 2, // 可选的, 默认值是 1
       children: [
-        encodeURI("/projects/vuepress/01.vuepress简介"),
-        encodeURI("/projects/vuepress/02.vuepress搭建"),
       ],
     },
   ],
