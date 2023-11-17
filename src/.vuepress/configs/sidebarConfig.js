@@ -1,36 +1,15 @@
 module.exports = {
-  "/projects/": [
-    {
-      title: "vuepress搭建知识库",
-      collapsable: true, // 可选的, 默认值是 true,
-      sidebarDepth: 1, // 可选的, 默认值是 1
-      children: [
-        { title: "前言", path: "/projects/vuepress/" },
-        "/projects/vuepress/" + encodeURI("01.vuepress简介"),
-        "/projects/vuepress/" + encodeURI("02.vuepress搭建"),
-      ],
-    },
-    {
-      title: "药师在线教育Saas平台",
-      collapsable: true, // 可选的, 默认值是 true,
-      sidebarDepth: 1, // 可选的, 默认值是 1
-      children: [
-      ],
-    },
+  "/projects/donation/": [
     {
       title: "公益募捐Saas平台",
-      collapsable: true, // 可选的, 默认值是 true,
-      sidebarDepth: 1, // 可选的, 默认值是 1
-      children: [
-      ],
-    },
-    {
-      title: "AI图床创作平台",
+      path: '',
       collapsable: true, // 可选的, 默认值是 true,
       sidebarDepth: 2, // 可选的, 默认值是 1
       children: [
+        { title: "需求列表", path: "01.background" },
+        { title: "业务流程", path: "02.business" },
       ],
-    },
+    }
   ],
   "/tools/": [
     {
