@@ -84,8 +84,8 @@ module.exports = [
   {
     text: "文档与工具",
     items: [
-      { text: "文档", link:'/books/devops/openrestry/' },
-      { text: "工具", link:'/books/devops/elk/' },
+      { text: "文档", link:'/archive/' },
+      { text: "工具", link:'/tools/' },
     ]
   },
   {

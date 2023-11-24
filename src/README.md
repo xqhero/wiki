@@ -14,7 +14,7 @@ heroImageStyle: {
   boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
 }
 features:
-- title: 技术专题
+- title: 应用专题
   details: 通过系统的梳理和总结，对知识进行点、线、面的串联，构建完整的知识体系。
 - title: 项目实战
   details: 从顶层视角出发，全方位记录项目的0-1过程，总结实战经验。

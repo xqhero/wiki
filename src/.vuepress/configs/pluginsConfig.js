@@ -16,4 +16,6 @@ module.exports = [
           linkTo: '/abouts/'
         }
     ],
+    ['@renovamen/vuepress-plugin-reading-time']
+    
 ]

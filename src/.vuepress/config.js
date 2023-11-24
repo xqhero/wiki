@@ -4,13 +4,14 @@ const plugins = require('./configs/pluginsConfig')
 module.exports = {
   title: "程序猿沉思录",
   description: "历经10余年的技术开发和沉淀, 记录每一次思考。通过专题和项目实战的方式，梳理解决方案，分享给需要的同学",
-  theme: "reco",
+
   base: "/wiki/",
   themeConfig: {
     noFoundPageByTencent: false,
     nav: nav,
     sidebar: sidebar,
     sidebarDepth: 3,
+    subSidebar: 'auto',
     smoothScroll: true,
     lastUpdated: '上次更新',
     author: '有信仰的攻城狮',
@@ -37,7 +38,7 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true,
-    extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
+    extractHeaders: ['h2', 'h3'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
   },
   plugins: plugins,
   extraWatchFiles: [

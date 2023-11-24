@@ -1074,6 +1074,11 @@
     event-target-shim "^5.0.1"
     miniprogram-api-typings "^2.10.2"
 
+"@mr-hope/vuepress-plugin-reading-time@^1.30.0":
+  version "1.30.0"
+  resolved "https://registry.npmmirror.com/@mr-hope/vuepress-plugin-reading-time/-/vuepress-plugin-reading-time-1.30.0.tgz#e1e2140a76848d44bebd95ea57b2daff96f1b71f"
+  integrity sha512-70zwypeiMHPy31zW/SeU82O4FUjQkoueAYIiyeyyxGE7spOMzUwTuJQXmiHb1KHZKNqHfDAfdfxfb3QAcWNehQ==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -1086,6 +1091,11 @@
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
+
+"@renovamen/vuepress-plugin-reading-time@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.npmmirror.com/@renovamen/vuepress-plugin-reading-time/-/vuepress-plugin-reading-time-0.2.1.tgz#df15bee2776ae83442b3d24bfc7be8b60796ea93"
+  integrity sha512-0H/Ut1XcuPLEwD4U/6Kw2XS5cVZn+RXP52ySY51F/+nTgedfUb69EOwhF9qBnkY5+YbHc/6hW2raaoQ0yD32BA==
 
 "@shigma/stringify-object@^3.3.0":
   version "3.3.0"
@@ -9320,6 +9330,11 @@ vuepress-plugin-nuggets-style-copy@^1.0.3:
   integrity sha512-0v+9i8ZkD0a87nxH/KGioJE6Szeh5ZMBQxRyjEyeUo3B/OSXuuED9ih6+JW2e3LKbsxkza1ZAv8dVXNurKXtFw==
   dependencies:
     clipboard "^2.0.4"
+
+vuepress-plugin-reading-time1@^1.31.0-beta.1:
+  version "1.31.0-beta.1"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-reading-time1/-/vuepress-plugin-reading-time1-1.31.0-beta.1.tgz#fb54edea418678fbc5413a96c6d7a232f7588684"
+  integrity sha512-GDlcKOP6X2k0l6J8FNyln/SxgSIS+7o212lXNNM9zrW1z6ZvC6YPWDrhqPA9gX1l6IPEp9+X6gZ5ShFR+aNxpw==
 
 vuepress-plugin-sitemap@^2.3.1:
   version "2.3.1"
